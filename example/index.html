@@ -1,0 +1,82 @@
+<html>
+<head>
+		<style>
+			.column {
+				width:16.666666666666664%;
+		
+				float: left;
+				position: relative;
+				min-height: 1px;
+			}
+
+			.background {
+		
+				height:100%;
+				background:blue;
+			
+			}
+
+		</style>
+	
+</head>
+<body>
+
+<div class='container'>
+	<div class='column'>
+		<div data-auto-scaler='scale-xs-100 scale-sm-200 scale-md-100 scale-lg-200' >
+			<content>
+				<div class='background'></div><!-- your content goes here -->
+			</content>
+		</div>
+	</div>
+
+	<div class='column'>
+		<div data-auto-scaler='scale-xs-100 scale-sm-100 scale-md-200 scale-lg-100' >
+			<content>
+				<div class='background'></div><!-- your content goes here -->
+			</content>
+		</div>
+	</div>
+
+	<div class='column'>
+		<div data-auto-scaler='scale-xs-100 scale-sm-200 scale-md-100 scale-lg-200' >
+			<content>
+				<div class='background'></div><!-- your content goes here -->
+			</content>
+		</div>
+	</div>
+
+	<div class='column'>
+		<div data-auto-scaler='scale-xs-100 scale-sm-100 scale-md-200 scale-lg-100' >
+			<content>
+				<div class='background'></div><!-- your content goes here -->
+			</content>
+		</div>
+	</div>
+
+	<div class='column'>
+		<div data-auto-scaler='scale-xs-100 scale-sm-200 scale-md-100 scale-lg-200' >
+			<content>
+				<div class='background'></div><!-- your content goes here -->
+			</content>
+		</div>
+	</div>
+
+	<div class='column'>
+		<div data-auto-scaler='scale-xs-100 scale-sm-100 scale-md-200 scale-lg-100' >
+			<content>
+				<div class='background'></div><!-- your content goes here -->
+			</content>
+		</div>
+	</div>
+
+	<div style='clear:both'></div>
+</div>
+
+	<script src="../oratio.js"></script>
+	<script>
+		var ratios = new Oratio();
+		ratios.make();
+	</script>
+</body>
+</html>
